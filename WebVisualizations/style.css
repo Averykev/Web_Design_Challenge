@@ -1,0 +1,63 @@
+body{
+    background-color: #ececec;
+    margin-bottom: 50px;
+}
+
+.navigation .navbar-brand{
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    
+    font-weight: bold;
+    background-color: #00b6ad;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: inherit;
+}
+
+.navigation .navbar-toggler{
+    border-color: #ececec;
+}
+
+h5{
+    text-align: center;
+}
+
+.navigation{
+    background-color: white;
+}
+
+.container{
+    padding-top: 25px;
+}
+
+.panel{
+    background-color: white;
+    color: gray;
+    margin-top: 50px;
+    padding: 35px;
+}
+
+.title{
+    color: #00b6ad;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.visualization_2 {
+    width: 50%;
+    height: 50%;
+}
+
+p{
+    font-size: 18px;
+}
+
+@media(max-width:991px){
+    .navbar-expand-lg{
+        background-color: #00b6ad;
+    }
+
+    .navigation .navbar-collapse{
+        background-color: white;
+    }
+}
