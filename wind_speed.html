@@ -48,60 +48,51 @@
 
 
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7 col-md-12">
-            <div class="panel">
-              <h2 style="padding-bottom: 20px;" class="title">Summary: Latitude vs. X</h2>
+        <section class="row">
+          <div class="col-md-7">
+            <article class="article-content">
+              <h2 class="title">Wind Speed</h2>
               <hr>
 
-              <img style="padding-top: 40px;" src="Visualizations\Max Temp Image.png" width = 50% class="visualization rounded float-left" alt="Maximum Temp Image">
-              <p style="padding-top: 40px;">The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis,
-              we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
-
-              <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included:
-              temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis,
-              as well as explanations and descriptions of any trends and correlations witnessed.</p>
-            </div>
+              <img src="Visualizations\Wind Speed Image.png" style="padding-bottom: 30px;" width= "600" height = "400" class="visualization" alt="Wind Speed Image">
+              <p>Once again, with respect to the wind speed results, there were more readings in the Northern Hemishphere.  However, these results also seemed somewhate 
+                  inconclusive.  The highest wind speed recordings seemed to occur when the locations where much closer to the north pole...or much closer to the equator.
+                    This probably has more to do with tradewind patterns across the globe. </p>
+             
+            </article>
           </div>
 
-          <div class="col-lg-5 col-md-12">
-            <div class = "panel">
+          <div class="col-md-5">
+            <article class = "article-content">
               <h3 class= "title">Visualizations</h3>
               <hr>
 
-              <div class="container">
-                <div style = "padding-bottom: 25px" class ="row">
-                  <div class = "col-6" >
-                    <a href ="max_temp.html">
-                      <img src="Visualizations\Max Temp Image.png" width=200 height=200 alt="Maximum Temp Image">
-                    </a>
-                  </div>
-                  <div class = "col-6">
-                    <a href ="humidity.html">
-                      <img src="Visualizations\Humidity Image.png"  width="200" height="200" alt="Humidity Image">
-                    </a>
-                  </div>
-                </div>
-
-
+              <!--div class="container"-->
                 <div style="padding-bottom: 25px;" class="row">
-                  <div class = "col-6">
+                
+                    <a href ="max_temp.html">
+                      <img src="Visualizations\Max Temp Image.png"width = "200" height ="200"  alt="Maximum Temp Image">
+                    </a>
+                 
+                    <a href ="humidity.html">
+                      <img src="Visualizations\Humidity Image.png"width = "200" height ="200"  alt="Humidity Image">
+                    </a>
+                 
                     <a href="cloudiness.html">
-                      <img src="Visualizations\Cloudiness Image.png" width="200" height="200" alt="Cloudiness Image">
+                      <img src="Visualizations\Cloudiness Image.png" width = "200" height ="200" alt="Cloudiness Image">
                     </a>
-                  </div>
-
-                  <div class = "col-6">
+               
                     <a href="wind_speed.html">
-                      <img src="Visualizations\Wind Speed Image.png" width="200" height="200"  alt="Wind Speed Image">
+                      <img src="Visualizations\Wind Speed Image.png" width = "200" height ="200"  alt="Wind Speed Image">
                     </a>
-                  </div>
+
+                 
                 </div>
-              </div>
-            </div>
+            </article>   
           </div>
-        </div>
+        </section>
       </div>
+ 
  
   
 
